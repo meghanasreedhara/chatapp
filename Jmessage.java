@@ -15,7 +15,7 @@ class Jmessage
 
     public String toString()
     {
-	return("/FOR " + this.isfor + "/FROM " + this.from + "/MESSAGE " 
+	 return("/FOR " + this.isfor + "/FROM " + this.from + "/MESSAGE " 
 	       + this.message + "/END");
     }
 
