@@ -167,7 +167,7 @@ public class Jcanvas
 				   templine.endx, templine.endy);
 		    }
 
-		if (graphics.elementAt(count) instanceof OTFoval)
+		if (graphics.elementAt(count)  instanceof OTFoval)
 		    {
 			OTFoval tempoval = 
 			    (OTFoval) graphics.elementAt(count);
@@ -293,8 +293,7 @@ public class Jcanvas
     public void drawoval(Color color, int x, int y, int width, int height,
 			 boolean filled)
     {
-        graphics.addElement(new OTFoval(color, x, y,
-					    width, height, filled));
+        graphics.addElement(new OTFoval(color, x, y,width, height, filled));
         
         Graphics g = getGraphics();
         g.setColor(color);
@@ -321,8 +320,7 @@ public class Jcanvas
 
     }
 
-    public void drawtext(Color color, String font, int x, int y, int size,
-			 int style, String text)
+    public void drawtext(Color color, String font, int x, int y, int size,int style, String text)
     {
 	Graphics g = getGraphics();
 	Font thefont = new Font(font, style, size);
