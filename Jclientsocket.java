@@ -7,8 +7,7 @@ import java.util.*;
 import java.io.*;
 
 
-class Jclientsocket
-    extends Thread
+class Jclientsocket extends Thread
 {
     protected Socket mysocket;
     protected static int clientnumber = 0;
@@ -22,8 +21,7 @@ class Jclientsocket
     protected int count;
 
 
-    public Jclientsocket(Jserver parent, Socket s, 
-			       ThreadGroup threadgroup)
+    public Jclientsocket(Jserver parent, Socket s, ThreadGroup threadgroup)
     {
 	super("OTF client " + clientnumber++);
 
