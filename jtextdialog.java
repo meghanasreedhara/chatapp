@@ -61,11 +61,11 @@ class Jtextdialog extends Dialog implements ActionListener, KeyListener, WindowL
 				this.getSize().height) / 2)
 			      + myparent.getLocation().y));
 
-	addKeyListener(this);
-	addWindowListener(this);
-	this.setResizable(false);
-	this.setVisible(true);
-	dismiss.requestFocus();
+	  addKeyListener(this);
+	  addWindowListener(this);
+	  this.setResizable(false);
+	  this.setVisible(true);
+	  dismiss.requestFocus();
     }
 
     public void actionPerformed(ActionEvent E)
