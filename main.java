@@ -24,7 +24,7 @@ public class Main extends Object implements Runnable
 
     public void run()
     {
-	// Nothing to do here.
+	
 	return;
     }
 }
