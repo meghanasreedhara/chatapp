@@ -3,9 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-class Jsettings
-    extends Dialog
-    implements ActionListener, KeyListener, WindowListener
+class Jsettings extends Dialog implements ActionListener, KeyListener, WindowListener
 {
     private Jwindow myparent;
 
