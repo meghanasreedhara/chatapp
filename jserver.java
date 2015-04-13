@@ -58,8 +58,8 @@ class vulture extends Thread
 		for (count = 0; count < myparent.connections.size();
 		     count ++)
 		    {
-			temp = (Jclientsocket) 
-			    myparent.connections.elementAt(count);
+		         temp = (Jclientsocket) 
+			  myparent.connections.elementAt(count);
 
 			if (temp.isAlive() == false)
 			    {
