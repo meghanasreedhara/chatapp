@@ -3,9 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class Jleavemessage
-    extends Dialog
-    implements ActionListener, KeyListener, WindowListener
+public class Jleavemessage extends Dialog implements ActionListener, KeyListener, WindowListener
 {
     protected Jwindow myparent;
     protected Label whofor;
