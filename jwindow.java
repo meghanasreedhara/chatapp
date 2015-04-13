@@ -4,9 +4,7 @@ import java.awt.event.*;
 import java.net.*;
 
 
-class Jserverwindow
-    extends Frame
-    implements ActionListener, WindowListener
+class Jserverwindow extends Frame implements ActionListener, WindowListener
 {
     protected GridBagLayout mylayout;
     protected GridBagConstraints myconstraints;
@@ -181,9 +179,7 @@ class Jserverwindow
 }
 
 
-class OTFservershutdowndialog
-    extends Dialog
-    implements ActionListener, KeyListener, WindowListener
+class OTFservershutdowndialog extends Dialog implements ActionListener, KeyListener, WindowListener
 {
     protected Jserverwindow myparent;
     protected Jserver theserver;
