@@ -3,8 +3,7 @@ import java.io.*;
 import java.net.*;
 
 
-class Clientreader
-    extends Thread
+class Clientreader extends Thread
 {
 
     protected Socket clientsocket;
