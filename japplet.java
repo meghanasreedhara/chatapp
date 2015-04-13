@@ -5,8 +5,7 @@ import java.applet.*;
 
 
 
-public class Japplet
-    extends Applet
+public class Japplet extends Applet
 {
    
  // This is just a simple applet wrapper class to allow OTF Chat
