@@ -3,9 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-class Jmessagedialog
-    extends Dialog
-    implements ActionListener, KeyListener, WindowListener
+class Jmessagedialog extends Dialog implements ActionListener, KeyListener, WindowListener
 {
     protected Jwindow myparent;
 
@@ -15,8 +13,7 @@ class Jmessagedialog
     protected GridBagConstraints myconstraints;
 
 
-    public Jmessagedialog(Jwindow parent, String TheTitle,
-				boolean IsModal, String TheMessage)
+    public Jmessagedialog(Jwindow parent, String TheTitle, boolean IsModal, String TheMessage)
     {
 	super(parent, TheTitle, IsModal);
 
