@@ -36,8 +36,7 @@ class jclients
 }
 
 
-class vulture
-    extends Thread
+class vulture extends Thread
 {
     protected Jserver myparent;
 
@@ -78,8 +77,7 @@ class vulture
 }
 
 
-public class Jserver
-    extends Thread
+public class Jserver extends Thread
 {
     
     protected int port;
@@ -158,8 +156,7 @@ public class Jserver
     }
 
 
-    public synchronized void disconnect(Jclientsocket who,
-					boolean notify)
+    public synchronized void disconnect(Jclientsocket who,boolean notify)
     {
 	int count;
 
@@ -190,8 +187,7 @@ public class Jserver
 			this.connections.removeElement(temp);
 			this.connections.trimToSize();
 
-			this.Serveroutput("User " + temp.username 
-					      + " disconnected\n"); 
+			this.Serveroutput("User " + temp.username + " disconnected\n"); 
 			this.Serveroutput("There are " +
 					(this.connections.size()) +
 					" users connected\n");
@@ -276,8 +272,7 @@ public class Jserver
 			System.exit(1);
 		    }
 
-		Jclientsocket cs = 
-		    new Jclientsocket(this, socket, threadgroup);
+		Jclientsocket cs = new Jclientsocket(this, socket, threadgroup);
 		cs.start();
 
 		synchronized (connections) 
