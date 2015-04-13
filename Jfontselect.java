@@ -6,9 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class Jfontselect
-    extends Dialog
-    implements ActionListener, ItemListener, KeyListener, WindowListener
+public class Jfontselect extends Dialog implements ActionListener, ItemListener, KeyListener, WindowListener
 {
     private GridBagLayout mylayout;
     private GridBagConstraints myconstraints;
